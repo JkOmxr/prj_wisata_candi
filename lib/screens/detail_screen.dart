@@ -163,9 +163,9 @@ class DetailScreen extends StatelessWidget {
                         itemCount: candi.imageUrls.length,
                         itemBuilder: (context, index) {
                           return Padding(
-                            padding: EdgeInsets.only(left: 8),
+                            padding: const EdgeInsets.only(left: 8),
                             child: Container(
-                              decoration: BoxDecoration(),
+                              decoration: const BoxDecoration(),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: CachedNetworkImage(
